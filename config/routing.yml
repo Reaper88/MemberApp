@@ -1,0 +1,9 @@
+member_app_post:
+    path:   /memberapp/post
+    defaults: { _controller: member.app.controller:post }
+  
+member_app:
+    path:   /memberapp
+    defaults: { _controller: member.app.controller:index }
+
+  

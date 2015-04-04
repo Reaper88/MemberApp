@@ -1,0 +1,12 @@
+services:
+    member.app.controller:
+        class: reaper\memberapp\controller\index
+        arguments:
+            - @dbal.conn
+            - @controller.helper
+            - @request
+            - @template
+            - @user
+            - %core.root_path%
+            - %core.php_ext%
+    

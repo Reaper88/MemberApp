@@ -1,0 +1,27 @@
+{
+	"name": "reaper/memberapp",
+	"type": "phpbb-extension",
+	"description": "Member application that post the output to the phpbb forums.",
+	"homepage": "http://www.myraytech.net",
+	"version": "1.0.0",
+	"time": "2015-01-16",
+	"keywords": ["phpbb", "extension", "member app"],
+	"license": "GPL-2.0",
+	"authors": [
+		{
+			"name": "Kevin Roy",
+			"homepage": "http://www.myraytech.net",
+			"email": "royk@myraytech.com",
+			"role": "Lead Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3"
+	},
+	"extra": {
+		"display-name": "Member Application",
+		"soft-require": {
+			"phpbb/phpbb": "3.1.*"
+		}
+	}
+}
